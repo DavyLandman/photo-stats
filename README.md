@@ -10,5 +10,15 @@ How to run
 ---------
  - `gem install sqlite3`
  - `gem install exiftool`
- - install exiftool
- - ruby getstats.rb "/home/davy/Pictures/" stats.sqldb
+ - make sure [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) is
+   installed
+ - ruby getstats.rb "/home/davy/Pictures" stats.sqldb
+
+
+TODO
+---------
+ - Write some code to execute the queries and generate HTML file(s) which use
+   Google Chart API for some awesome graphs
+ - Better interaction in the console app.
+ - Find a faster way to read the exif information. (currently, 7000 6MB NEF
+   files took 30 minutes to read)
