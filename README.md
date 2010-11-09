@@ -4,7 +4,13 @@ I created this small script to extract all EXIF information about my pictures
 and add it to a SQLite database so I can write some cool queries on it.
 
 This script uses exiftool to extract the EXIF information from a wide range of
-formats.
+formats. The following information is extracted:
+
+ - Lens
+ - FocalLength
+ - Aperture
+ - ShutterSpeed
+ - HyperFocalDistance
 
 How to run
 ---------
