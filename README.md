@@ -15,7 +15,7 @@ formats. The following information is extracted:
 How to run
 ---------
  - `gem install sqlite3`
- - `gem install exiftool`
+ - `gem install mini_exiftool`
  - make sure [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) is
    installed
  - ruby getstats.rb "/home/davy/Pictures" stats.sqldb
