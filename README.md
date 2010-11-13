@@ -14,6 +14,7 @@ formats. The following information is extracted:
 
 How to run
 ---------
+ - make sure ruby >= 1.9.1 (due to sqlite3 dependency)
  - `gem install sqlite3`
  - `gem install mini_exiftool`
  - make sure [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/) is
